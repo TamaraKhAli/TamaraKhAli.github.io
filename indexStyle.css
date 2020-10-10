@@ -743,12 +743,11 @@ width: 100%;
  }
 }
 @media(max-width:400px){
- .s-box{
-  width: 100%;
-  height:400px;
+ .card{
+  width: 300%;
+  height:200px;
  }
 }
-
 /*********************** */
 .cntainer2{
   width: 1000px;
