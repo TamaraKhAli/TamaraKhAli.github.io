@@ -1,0 +1,324 @@
+<!--doctype html-->
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tamara Khaled Portfolio Website</title>
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--title-icon--------->
+<link rel="shortcut icon" href="images/icon.png">
+<link rel="stylesheet" type="text/css" href="indexStyle.css"/>
+
+ <link href="https://fonts.googleapis.com/css?family=Inter:400,800,900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+ <!-- scroll up -->
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3/jquery.min.js"></script>
+<!--using FontAwesome---------------->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+<!------------ modal ---->
+ <!--<link href="styles.css" rel="stylesheet"> -->
+  <script defer src="script.js"></script>
+
+</head>
+<body style="font-family: 'Poppins', sans-serif;">
+ <!--main------------------------>
+ <section id="main">
+ <!--navigation-------------------------------->
+ <nav>
+ <!--logo--->
+ <a href="#" class="logo">TAM-KH</a>
+  
+ <!--menu--------->
+ <div class="toggle"></div>
+ <ul class="menu" id="myLinks">
+ <li class="active"><a href="#main" >Home</a></li> 
+ <li><a href="#about">About</a></li> 
+ <li><a href="#services">Services</a></li> 
+ <!--<li><a href="#portfolio">Portfolio</a></li> --> 
+ <li><a href="#contact-form">Contact</a></li> 
+ </ul>
+ <!--language-->
+ <a href="https://goo.gl/maps/TAFbPKYUQHnE8wgr9" class="lang">JOR</a>
+ </nav>
+ <!--name--------------------------->
+ <div class="name">
+ <!--hello------->
+ <p>Hello!</p>
+ <!--name--->
+ <h1>I'm <font color="#563bd1">Tamara</font> Khaled</h1>
+ <!--details--------------->
+ <p class="details">Welcome to my website. I am a full stack web designer / developer Based in Django, python. I have passion for web design and love to create for web and mobile devices. </p>
+ <!--cv button-------------------->
+ <a href="https://drive.google.com/file/d/1sujXsVTViaYmlOP4BwsXS-HCBaeTiqH1/view?usp=sharing" class="cv-btn">Download CV</a>
+ 
+  
+ </div>
+  <!--down arrow-------------->
+ <!--<div class="black-line" ></div>-->
+ <!--social---------------->
+ <div class="social">
+ <a href="https://www.facebook.com/profile.php?id=100014517314659"><i class="fab fa-facebook-f"></i></a> 
+ <a href="https://twitter.com/tamarakhali"><i class="fab fa-twitter"></i></a>
+ <a href="https://github.com/TamaraKhAli"><i class="fab fa-github"></i></a>
+ <a href="https://www.linkedin.com/in/tamara-khaled-8b99b5171/"><i class="fab fa-linkedin"></i></a> 
+ </div>
+ 
+ </section>
+ <!--about----------------------->
+  <section id="about" style="font-family: 'Poppins', sans-serif;">
+ <!--text---------------------->
+ <div class="about-text s-heading">
+ <h1 style="color: #563bd1;font-family: 'Poppins', sans-serif;">About Me</h1>
+ <h2 style="color: #fff;font-family: 'Poppins', sans-serif;">FreeLancing Full Stack Developer</h2>
+ <p>A 24 years old courteous and enthusiastic web developer. Enjoy web design and every thing reletive in IT. I help small businesses and students to find web solutions meet their needs. I believe in having a good time while doing what I love and I do love what I do. I can't wait to be your programmer to your new website. It's great to have you!  </p><br>
+<button style="font-family: 'Poppins', sans-serif;"data-modal-target="#modal" class="detailsBtn">View More Details</button>
+ </div>
+ <!--about-model------------------>
+<div class="about-model">
+ <!--<img alt="model" src="logo.png" width="420" height="400" /> -->
+ <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="title" style="color:  #563bd1;"><b>I Can Do ...</b> </div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+     <div class="modal-body">
+     <p style="color: black;">• A complete Django project with several apps.<br>
+  • User registration and login authentication in Django.<br>
+  • User role based permissions and authentication in Django.<br>
+  • Multi-languages websites.<br>
+  • Different types of cards, menus, sidenaves, forms and etc. using HTML, CSS and JS.<br>
+  • Map handling, tracking maps and geofence functions.<br>
+  • Design a dashboards (charts) to give meaningful information.<br>
+  • Database connection with the projects and make migrations and changes on database using models.py file and SQL server.<br>
+  • Built a wordpress e-commerce websites.<br>
+  </p>
+   </div> 
+  </div>
+  <div id="overlay"></div>
+  
+ </div>  
+ 
+ 
+ </section>
+ <!--services-------------------->
+ <section id="services" style="background-color: #edf1fd">
+ <!--heading-------------->
+ <div class="s-heading">
+ <h1 style="color: #000;font-family: 'Poppins', sans-serif;">Services</h1>
+ <p style="color: #000;font-family: 'Poppins', sans-serif;">Here Is The Some Servies Which We Provide You.</p>
+ </div>
+ <!--services-box-container--------->
+ <div class="b-container">
+ <!--box-1---------------->
+ <div class="s-box">
+  <div class="cntainer2">
+  <div class="card">
+    <div class="face face1">
+      <div class="content">
+        <img src="ux-design.png">
+        <h3 >WordPress</h3>
+      </div>
+    </div>
+    <div class="face face2">
+      <div class="content">
+        <p style="color: #000;">A wordPress e-commerce and Blog websites developer, using free or paid themes and plugins like oceanwp, woocommerce, elemntor, Ultimate Member, megaMenu etc. to built a relaiable, secure and effecint e-commerce website to your business.    </p>
+      <!--  <a href="#">Read More</a> -->
+      </div>
+    </div>
+  </div>
+</div>
+ <!--img------------->
+ <div class="s-b-img">
+  <!--type----------->
+  
+  <!--name------->
+ <!-- <img src="images/s1.png"> -->
+ </div>
+ <!--text----------------->
+ <div class="s-b-text">
+ <!--<a href="#">With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or your clients. Easily change colors, fonts and text styles. Apply stunning animations.</a> -->
+ </div>
+ </div>
+  <!--box-2---------------->
+ <div class="s-box">
+
+<div class="cntainer2">
+  <div class="card">
+    <div class="face face1">
+      <div class="content">
+        <img src="web-design.png">
+        <h3>Front-end</h3>
+      </div>
+    </div>
+    <div class="face face2">
+      <div class="content">
+        <p style="color: #000">A front-end developer uses HTML, CSS, BOOTSTRAP and JS to design aa consistent and responsive landing pages, dashboards, social and personal websites, etc. </p>
+      <!--  <a href="#">Read More</a>-->
+      </div>
+    </div>
+  </div>
+</div>
+ <!--img------------->
+ <div class="s-b-img">
+  <!--type----------->
+ 
+  <!--name------->
+ <!-- <img src="images/s1.png"> -->
+ </div>
+ <!--text----------------->
+ <div class="s-b-text">
+<!-- <a href="#">With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or your clients. Easily change colors, fonts and text styles. Apply stunning animations.</a> -->
+ </div>
+ </div>
+  <!--box-3---------------->
+ <div class="s-box">
+  <div class="cntainer2">
+  <div class="card">
+    <div class="face face1">
+      <div class="content">
+        <img src="code.png">
+        <h3>Back-end</h3>
+      </div>
+    </div>
+    <div class="face face2">
+      <div class="content">
+        <p style="color: 000">A back-end web developer uses Django framework and python or PHP. Database handling (sql sever) to write a good code that obay your needs efficiently. </p>
+      <!--  <a href="#">Read More</a> -->
+      </div>
+    </div>
+  </div>
+</div>
+ <!--img------------->
+ <div class="s-b-img">
+  <!--type----------->
+  
+  <!--name------->
+ <!-- <img src="images/s1.png"> -->
+ </div>
+ <!--text----------------->
+ <div class="s-b-text">
+ <!--<a href="#">With Divi, every part of your website is customizable. You have complete freedom to create the perfect website for you or your clients. Easily change colors, fonts and text styles. Apply stunning animations.</a> -->
+ </div>
+
+ </div>
+ <br>
+
+ 
+ </section>
+ <!--portfolio------------------
+ <section id="portfolio">
+
+ <h1 class="p-headind">Portfolio</h1>
+
+ <div class="p-container">
+
+ <div class="p-box">
+
+ <div class="overlay-text">
+ <h1>Writting</h1>
+ <p>Client Project</p> 
+ </div>
+
+ <img src="images/w1.jpg">
+  
+ </div>
+ 
+ <div class="p-box">
+  
+ <div class="overlay-text">
+ <h1>Ideas</h1>
+ <p>Client Project</p> 
+ </div>
+ 
+ <img src="images/w2.jpg">
+ </div>
+
+ <div class="p-box">
+ 
+ <div class="overlay-text">
+ <h1>Music</h1>
+ <p>Client Project</p> 
+ </div>
+ 
+ <img src="images/w3.jpg">
+ </div>
+ 
+ <div class="p-box">
+ 
+ <div class="overlay-text">
+ <h1>Time</h1>
+ <p>Client Project</p> 
+ </div>
+ 
+ <img src="images/w4.jpg">
+ </div>
+ 
+ <div class="p-box">
+
+ <div class="overlay-text">
+ <h1>Creative</h1>
+ <p>Client Project</p> 
+ </div>
+ 
+ <img src="images/w5.jpg">
+ </div>
+ 
+ <div class="p-box">
+
+ <div class="overlay-text">
+ <h1>Books</h1>
+ <p>Client Project</p> 
+ </div>
+ 
+ <img src="images/w6.jpg">
+ </div>
+  
+ </div>
+ </section> -->
+ <!--Contact-btn------------------>
+ <section id="contact-btn" >
+ <!--heading-------------->
+<!-- <h1 class="c-b-heading">If You Have a Project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</h1>-->
+<div class="about-text s-heading">
+ <h2 style="color: #563bd1;font-family: 'Poppins', sans-serif;"><b>I'll be Happy to Help</b></h2>
+ <h2 style="color: #fff;font-family: 'Poppins', sans-serif;">I am currantly available for freelance work</h2>
+ <p style="font-family: 'Poppins', sans-serif;">If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
+
+ </div>
+ <!--btn-------->
+ <button ><a style="color: #fff;font-family: 'Poppins', sans-serif;" href="#contact-form">Contact Me</a></button>
+ </section>
+ <!--contact-form------------------->
+ <section id="contact-form">
+
+  <div class="contact-info">
+      <div class="cardf">
+        <i class="card-icon far fa-envelope"></i>
+        <p>tamarakhaledali@gmail.com</p>
+      </div>
+
+      <div class="cardf">
+        <i class="card-icon fas fa-phone"></i>
+        <p>+962 775859778</p>
+      </div>
+
+      <div class="cardf">
+        <i class="card-icon fas fa-map-marker-alt"></i>
+        <p>Irbid, JORDAN</p>
+      </div>
+    </div>
+    <a href="#main"><button id="mybtn">
+      <i class="material-icons">arrow_upward</i>
+      </button></a>
+</section>
+
+ 
+ </section>
+
+<!--<script type="text/javascript" src="indexJS.js"></script>  -->
+ 
+</body>
+</html>
