@@ -549,9 +549,9 @@ width: 100%;
  #services{
   height:auto;
  }
- .card{
+ /*.card{
   padding-left: 3rem !important;
- }
+ }*/
  
  .b-container{
   flex-wrap: wrap;
