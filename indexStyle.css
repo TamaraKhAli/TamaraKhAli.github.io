@@ -550,7 +550,8 @@ width: 100%;
   height:auto;
  }
  .card{
-  padding-left: 20rem !important;
+ /* padding-left: 20rem !important;*/
+   flex-grow: 1;
  }
  
  .b-container{
